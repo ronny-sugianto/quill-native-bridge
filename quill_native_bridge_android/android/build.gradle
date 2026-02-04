@@ -2,7 +2,8 @@ group = "dev.flutterquill.quill_native_bridge"
 version = "1.0-SNAPSHOT"
 
 buildscript {
-    ext.kotlin_version = "1.8.22"
+    ext.kotlin_version = "2.2.21"
+    id "org.jetbrains.kotlin.android" version "2.3.0" apply false
     repositories {
         google()
         mavenCentral()
